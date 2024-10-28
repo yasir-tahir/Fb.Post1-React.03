@@ -1,0 +1,108 @@
+/* h1{
+    color: navy;
+}
+
+#my-id{
+    border-radius: 50%; 
+} */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: linear-gradient(to right bottom,#f8d2b1, #148ea3);
+    
+}
+
+.post-container{
+    /* border: 3px solid navy; */
+    border: 0.5px solid #ffff;
+    border-radius: 10px;
+    box-shadow: 8px 8px 8px #909090, 8px 8px 0px #575757;
+    width: 500px;
+    margin: auto;
+    padding: 20px;
+    margin-top: 50px;
+    background: transparent;
+    
+}
+
+.post-photo{
+    width: 100%;
+
+}
+
+.dp{
+    border-radius: 50%;
+    height: 80px;
+    width: 80px;
+}
+
+.post-header{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+.post-user{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.post-image{
+    margin-top: 10px;
+}
+
+.post-name >span{
+    margin-right: 15px;
+}
+
+
+
+.lcs{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    font-size: 30px;
+
+}
+.one{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.one >span{
+    font-size: 20px;
+    margin-left: 5px;
+}
+
+.two{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.likes{
+    font-weight: bold;
+    color: #434141;;
+}
+
+.comments{
+    font-weight: bold;
+    color: #434141;;
+}
+
+.post-name>span{
+    font-weight: bold;
+    color: #434141;
+}
+
+.post-image>p{
+    margin-bottom: 30px;
+}
