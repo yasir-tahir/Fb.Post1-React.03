@@ -47,7 +47,7 @@ function Post(Props) {
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
         <div>
           {
-            // Conditional rendering: if it's an image, render the image; if it's a video, render the video.
+            
             typeof Props.postImage === 'string' ? 
             <img
               src={Props.postImage}
@@ -55,7 +55,7 @@ function Post(Props) {
               className="post-photo"
               id="my-id"
             /> 
-            : Props.postImage// This will directly render the <iframe> passed for videos
+            : Props.postImage
           }
         </div>
       </div>
